@@ -1,9 +1,24 @@
 {
   "notesArray": [
     {
-        "title":"Test Title",
-        "text":"Test text",
-        "id": "0"
+      "title": "Test Title",
+      "text": "Test text",
+      "id": "0"
+    },
+    {
+      "title": "asda",
+      "text": "asdas",
+      "id": "1"
+    },
+    {
+      "title": "asda",
+      "text": "asdas",
+      "id": "2"
+    },
+    {
+      "title": "asda",
+      "text": "asdsad",
+      "id": "3"
     }
   ]
 }
