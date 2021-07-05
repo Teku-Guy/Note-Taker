@@ -10,7 +10,7 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-function createNewAnimal(body, notesArray) {
+function createNewNote(body, notesArray) {
     const newNote = body;
     notesArray.push(newNote);
     fs.writeFileSync(
@@ -22,6 +22,11 @@ function createNewAnimal(body, notesArray) {
 
 app.get('/api/notes', (req, res) => {
     return res.json(notesDB);
+});
+
+app.post('/api/notes', (req, res) => {
+    const newNote = createNewNote(req.body, notesDB);
+    res.json(newNote);
 });
 
 app.get('/', (req, res) => {
