@@ -1,14 +1,9 @@
 {
   "notesArray": [
     {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "0"
-    },
-    {
-      "title": "kljgdfijw dehfijgi ",
-      "text": "gjhgfbakjsd iouhekj qsaijhbf kjadv \n",
-      "id": "1"
+        "title":"Test Title",
+        "text":"Test text",
+        "id": "0"
     }
   ]
 }
